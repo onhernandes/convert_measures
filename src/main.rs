@@ -1,4 +1,5 @@
 use clap::Parser;
+// use std::collections::HashMap;
 
 /// Simple program to greet a person
 #[derive(Parser, Debug)]
@@ -13,7 +14,7 @@ struct Args {
    to: String,
 
    /// Value
-   value: u8,
+   value: u128,
 }
 
 fn main() {
